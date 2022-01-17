@@ -1,6 +1,6 @@
 ###### Figure 3B #######
 
-pdf(file="~/Dropbox/Current_Biology/Gmouse-Nav1.4/Figures/Figure_3B.pdf")
+pdf(file="~/Dropbox/Current_Biology/Gmouse-Nav1.4/Figures/Figure_3/Figure_3B.pdf")
 beta <- read.csv(file = "/Users/abhijnaparigi/Dropbox/Current_Biology/Gmouse-Nav1.4/CSV/activation.csv", header = T)
 
 beta$X <- NULL
