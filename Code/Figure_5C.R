@@ -1,10 +1,18 @@
 #### Panel 5C #### 
+
+require(sciplot)
+require(tidyverse)
+require(plyr)
+require(optimx)
+library(bbmle)
+
 pdf(file="~/Dropbox/Current_Biology/Gmouse-Nav1.4/Figures/Figure_5/Figure_5C.pdf")
 
 thing <- expression(paste("Nomalized Conductance (G" ["Na"],")"))
 par(mfrow = c(1,1), mar = c(5, 5, 0.3, 2) + 0.1, omi = c(bottom = 0, left=0.5, top=0, right=0.3))
 
 
+## Combining different datasets to get the triple mutant dataset
 ## Diii
 Diii <- read.csv(file = "/Users/abhijnaparigi/Dropbox/Current_Biology/Gmouse-Nav1.4/CSV/diii_activation.csv", header = T)
 
@@ -12,7 +20,6 @@ Diii <- read.csv(file = "/Users/abhijnaparigi/Dropbox/Current_Biology/Gmouse-Nav
 NoC <- read.csv(file = "/Users/abhijnaparigi/Dropbox/Current_Biology/Gmouse-Nav1.4/CSV/noc_activation.csv", header = T)
 NoC$X <- NULL
 NoC$X.1 <- NULL
-
 ## Di
 Di <- read.csv(file = "/Users/abhijnaparigi/Dropbox/Current_Biology/Gmouse-Nav1.4/CSV/di_activation.csv", header = T)
 Di$Quality <- rep("Good", nrow(Di))

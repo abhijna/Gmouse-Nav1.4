@@ -1,4 +1,9 @@
 ###### Figure 3B #######
+require(sciplot)
+require(tidyverse)
+require(plyr)
+require(optimx)
+library(bbmle)
 
 pdf(file="~/Dropbox/Current_Biology/Gmouse-Nav1.4/Figures/Figure_3/Figure_3B.pdf")
 beta <- read.csv(file = "/Users/abhijnaparigi/Dropbox/Current_Biology/Gmouse-Nav1.4/CSV/activation.csv", header = T)

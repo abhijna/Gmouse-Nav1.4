@@ -1,4 +1,10 @@
 ###### Figure 3A #######
+require(sciplot)
+require(tidyverse)
+require(plyr)
+require(optimx)
+library(bbmle)
+
 pdf(file="~/Dropbox/Current_Biology/Gmouse-Nav1.4/Figures/Figure_3/Figure_3A.pdf")
 
 par(mfrow = c(1,1), mar = c(5, 5, 3, 2) + 0.1, omi = c(bottom = 0, left=0.5, top=0, right=0.3))

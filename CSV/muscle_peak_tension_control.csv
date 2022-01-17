@@ -1,0 +1,13 @@
+﻿Species,sample,Twitch_Peak_Volts,Hour
+gmouse,1,0.3915,BPT
+gmouse,2,0.7619,BPT
+gmouse,3,0.3905,BPT
+gmouse,1,0.3915,CPT
+gmouse,2,0.7971,CPT
+gmouse,3,0.3183,CPT
+mouse,1,0.4446,BPT
+mouse,2,0.7004,BPT
+mouse,3,0.5077,BPT
+mouse,1,0.5514,CPT
+mouse,2,0.6914,CPT
+mouse,3,0.463,CPT
