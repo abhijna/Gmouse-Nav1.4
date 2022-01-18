@@ -9,7 +9,7 @@ library(bbmle)
 pdf(file="~/Dropbox/Current_Biology/Gmouse-Nav1.4/Figures/Figure_5/Figure_5A.pdf")
 
 
-thing <- expression(paste("Nomalized Conductance (G" ["Na"],")"))
+#thing <- expression(paste("Nomalized Conductance (G" ["Na"],")"))
 par(mfrow = c(1,1), mar = c(5, 5, 0.3, 2) + 0.1, omi = c(bottom = 0, left=0.5, top=0, right=0.3))
 
 
