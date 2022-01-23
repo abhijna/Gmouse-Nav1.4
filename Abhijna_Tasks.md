@@ -20,8 +20,20 @@
 
 - [ ] Think about whether we need the PAML stuff. The PAML (pg 10) work feels tacked on. Is this really useful or necessary? It is not mentioned in the discussion. The authors do the hard work of assaying the functional significance of specific regions of Nav1.4—so why bother with models of selection?
 - [ ] Correct this part of the mammalian phylogeny: Afrotheria & Xenarthra are at the base of the tree. Scandentia remains problematic. Or maybe take out the PAML part.
-- [ ] Why do we add BSA to the venom tubes? Makes the venom less sticky to the tubes?! I think the tubes were pre-treated with BSA as well!
+- [x] Why do we add BSA to the venom tubes? Makes the venom less sticky to the tubes?! I think the tubes were pre-treated with BSA as well!
 - [ ] Provide version numbers of all software used! Including R studio.
+software for data viz and analysis:
+    - R studio: R version 3.6.2 (2019-12-12)
+    - sciplot package version 1.2-0 (graphing)
+    - dplyr version 1.0.4 (data wrangling)
+    - nlme version 3.1-145 (statistical models)
+    - ggplot2 version 3.3.0 (graphing)
+    - tibble  3.1.3 (data wrangling)   
+    - tidyr   1.0.2 (data wrangling)
+    - stringr 1.4.0 (data wrangling)
+    - readr   1.3.1 (data wrangling)
+Molecular evolution software: PAML version 4
+
 - [ ] Not sure what this comment means! Fig S1: fix Afrotheria & Xenarthra placement. Why aren't the most important taxa, the grasshopper mice, spelled out at the bottom of the tree? Citations for tree should be given in caption.
 
 
