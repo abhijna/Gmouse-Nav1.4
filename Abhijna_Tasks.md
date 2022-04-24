@@ -9,7 +9,7 @@
 
 - [X] Make a github repo, upload data and list that accession number in figures, where possible (
 - [ ] Show the entire alignment Nav1.4 alignment in the supplement.
-- [ ] Provide primers used for sequencing.
+- [X] Provide primers used for sequencing.
 - [ ] Some questions to answer: Did you sequence in both directions? Were primers designed in regions flanking the start and stop coding or overlapping with it? In supplement I'd like to see this as a diagram. How do we know there has been no gene duplications? Did you detect any splice variants with your cDNA sequencing results? Are any known from this protein? Which is expressed in skeletal muscle if so? Omega is not really a proxy for selection. It is a proxy for Dn/Ds. These are not the same thing. If you mention "under positive selection" you should indicate the test used.
 - [ ] Change all significant p values to < 0.01.
 - [ ] Figure 6 caption: what is "planned comparisons"?
@@ -21,7 +21,7 @@
 - [ ] Think about whether we need the PAML stuff. The PAML (pg 10) work feels tacked on. Is this really useful or necessary? It is not mentioned in the discussion. The authors do the hard work of assaying the functional significance of specific regions of Nav1.4—so why bother with models of selection?
 - [ ] Correct this part of the mammalian phylogeny: Afrotheria & Xenarthra are at the base of the tree. Scandentia remains problematic. Or maybe take out the PAML part.
 - [x] Why do we add BSA to the venom tubes? Makes the venom less sticky to the tubes?! I think the tubes were pre-treated with BSA as well!
-- [ ] Provide version numbers of all software used! Including R studio.
+- [x] Provide version numbers of all software used! Including R studio.
 software for data viz and analysis:
     - R studio: R version 3.6.2 (2019-12-12)
     - sciplot package version 1.2-0 (graphing)
@@ -45,4 +45,4 @@ Molecular evolution software: PAML version 4
 - [x] Figure 2: make it friendlier to color blind folks
 - [x] Figure 2: Change scientific name to common name for grasshopper mouse
 - [X] In Fig. 4a: do you need a y axis? Above Fig 4c, the "F" is cut off a bit and the x axis is screwed up in terms of spacing/alignment of labels.
-- [ ] Figure out when the data are normally distributed whenever a t-test was used.
+- [X] Figure out when the data are normally distributed whenever a t-test was used. (Normality holds up pretty well. All comparisons done with and without assumptions of normality. Results were consistent)
